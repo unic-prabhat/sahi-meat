@@ -1,5 +1,5 @@
 @extends('Admin.layouts.adminbody')
-@section('title', 'Dashboard')
+@section('title', 'Products')
 @section('css')
 
 @endsection
@@ -30,7 +30,7 @@
       <h3 class="card-title">Products</h3>
 
       <div class="card-tools">
-        <a href="add-product.php" class="btn btn-success btn-sm">
+        <a href="{{URL::to('admin/add-product')}}" class="btn btn-success btn-sm">
           <i class="fas fa-plus"></i> Add New
         </a>
       </div>
@@ -77,40 +77,40 @@
               </thead>
               <tbody>
                   <tr>
-                      <td><img src="assets/product-images/1_b.jpg" class="tbl-product-img"></td>
+                      <td><img src="{{URL::to('assets/product-images/1_b.jpg')}}" class="tbl-product-img"></td>
                       <td><a>Chiken Full 1Kg</a><br/><small>ID: 6766666 | 01.01.2022</small></td>
                       <td><span class="badge badge-success">In Stock</span></td>
                       <td>₹190.00<br><small><s>₹300.00</s></small></td>
                       <td>Category-1</td>
                       <td>
                         <div class="btn-group">
-                          <a class="btn btn-info btn-sm" href="edit-product.php"><i class="fas fa-pencil-alt"></i> Edit</a>
+                          <a class="btn btn-info btn-sm" href="{{URL::to('admin/edit-product')}}"><i class="fas fa-pencil-alt"></i> Edit</a>
                           <button type="button" class="btn btn-danger btn-sm delete-msg" href="#"><i class="fas fa-trash"></i> Delete</button>
                         </div>
                       </td>
                   </tr>
                   <tr>
-                      <td><img src="assets/product-images/1_b.jpg" class="tbl-product-img"></td>
+                      <td><img src="{{URL::to('assets/product-images/1_b.jpg')}}" class="tbl-product-img"></td>
                       <td><a>Chiken Full 1Kg</a><br/><small>ID: 6766666 | 01.01.2022</small></td>
                       <td><span class="badge badge-danger">Out of Stock</span></td>
                       <td>₹190.00<br><small><s>₹300.00</s></small></td>
                       <td>Category-1</td>
                       <td>
                         <div class="btn-group">
-                          <a class="btn btn-info btn-sm" href="edit-product.php"><i class="fas fa-pencil-alt"></i> Edit</a>
+                          <a class="btn btn-info btn-sm" href="{{URL::to('admin/edit-product')}}"><i class="fas fa-pencil-alt"></i> Edit</a>
                           <button type="button" class="btn btn-danger btn-sm delete-msg" href="#"><i class="fas fa-trash"></i> Delete</button>
                         </div>
                       </td>
                   </tr>
                   <tr>
-                      <td><img src="assets/product-images/1_b.jpg" class="tbl-product-img"></td>
+                      <td><img src="{{URL::to('assets/product-images/1_b.jpg')}}" class="tbl-product-img"></td>
                       <td><a>Chiken Full 1Kg</a><br/><small>ID: 6766666 | 01.01.2022</small></td>
                       <td><span class="badge badge-success">In Stock</span></td>
                       <td>₹190.00<br><small><s>₹300.00</s></small></td>
                       <td>Category-1</td>
                       <td>
                         <div class="btn-group">
-                          <a class="btn btn-info btn-sm" href="edit-product.php"><i class="fas fa-pencil-alt"></i> Edit</a>
+                          <a class="btn btn-info btn-sm" href="{{URL::to('admin/edit-product')}}"><i class="fas fa-pencil-alt"></i> Edit</a>
                           <button type="button" class="btn btn-danger btn-sm delete-msg" href="#"><i class="fas fa-trash"></i> Delete</button>
                         </div>
                       </td>

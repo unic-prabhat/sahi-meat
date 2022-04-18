@@ -15,5 +15,13 @@ class AdminPagesController extends Controller
     return view('Admin.Product.all');
   }
 
+  public function addproduct(){
+    return view('Admin.Product.add');
+  }
+
+  public function editproduct(){
+    return view('Admin.Product.edit');
+  }
+
 
 }

@@ -57,6 +57,9 @@ Route::get('/help',[PagesController::class, 'help']);
 
 Route::get('/admin',[AdminPagesController::class, 'home']);
 Route::get('/admin/manage-product',[AdminPagesController::class, 'manageproduct']);
+Route::get('/admin/add-product',[AdminPagesController::class, 'addproduct']);
+Route::get('/admin/edit-product',[AdminPagesController::class, 'editproduct']);
+
 
 
 
