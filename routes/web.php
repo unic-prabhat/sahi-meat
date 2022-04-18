@@ -59,6 +59,12 @@ Route::get('/admin',[AdminPagesController::class, 'home']);
 Route::get('/admin/manage-product',[AdminPagesController::class, 'manageproduct']);
 Route::get('/admin/add-product',[AdminPagesController::class, 'addproduct']);
 Route::get('/admin/edit-product',[AdminPagesController::class, 'editproduct']);
+Route::get('/admin/manage-category',[AdminPagesController::class, 'category']);
+Route::get('/admin/manage-coupon',[AdminPagesController::class, 'coupon']);
+Route::get('/admin/payment-options',[AdminPagesController::class, 'paymentoptions']);
+Route::get('/admin/manage-gallery',[AdminPagesController::class, 'gallery']);
+
+
 
 
 

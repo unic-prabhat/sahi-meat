@@ -23,5 +23,22 @@ class AdminPagesController extends Controller
     return view('Admin.Product.edit');
   }
 
+  public function category(){
+    return view('Admin.Product.Category.all');
+  }
+
+  public function coupon(){
+    return view('Admin.Product.Coupon.all');
+  }
+
+  public function paymentoptions(){
+    return view('Admin.Product.PaymentOption.all');
+  }
+
+  public function gallery(){
+    return view('Admin.Gallery.all');
+  }
+
+
 
 }

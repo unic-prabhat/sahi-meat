@@ -111,7 +111,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="categories.php">
+              <a class="nav-link" href="{{URL::to('/admin/manage-category/')}}">
                 <i class="nav-icon fa fa-list-alt"></i>
                 <p>
                  Categories
@@ -119,7 +119,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="manage-coupon.php">
+              <a class="nav-link" href="{{URL::to('/admin/manage-coupon/')}}">
                 <i class="nav-icon fa fa-ticket"></i>
                 <p>
                   Manage Coupon
@@ -127,7 +127,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="payment-options.php">
+              <a class="nav-link" href="{{URL::to('/admin/payment-options/')}}">
                 <i class="nav-icon fa fa-money"></i>
                 <p>
                   Payment Options
@@ -152,7 +152,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.php">
+              <a class="nav-link" href="{{URL::to('/admin/manage-gallery/')}}">
                 <i class="nav-icon fas fa-image"></i>
                 <p>
                   Gallery
